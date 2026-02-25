@@ -1,4 +1,4 @@
-# DentAgent-AI
+# DentalAgent-AI
 Agentic dental appointment system with LangGraph orchestration, human-in-the-loop governance, and dual UI/CLI interfaces. Designed to intelligently coordinate patient requests, reviewer oversight, and clinical safety workflows.
 
 Instead of behaving like a typical chatbot, every patient request (cancel, reschedule, or preparation instructions) moves through a clearly designed decision graph. The system validates patient identity, checks appointment ownership, detects emergency risk, handles slot availability, requires confirmation, generates a draft response, and pauses for human review before finalizing the outcome.
